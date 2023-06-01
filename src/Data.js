@@ -124,26 +124,184 @@ const lifting=[
 const functionalFitness=[
     {
         id:"1",
-        title:"elevate longline sports bra " ,
-        color:"willow green ",
-        price:"44$"
+        title:"arrival tshirt " ,
+        color:"white ",
+        price:"22$"
+       },   
+    {
+        id:"2",
+        title:"arrival 5 shorts " ,
+        color:"black ",
+        price:"26$"
+       },   
+    {
+        id:"3",
+        title:"arrial woven joggers " ,
+        color:"silhouette grey  ",
+        price:"40$"
        },   
     {
         id:"4",
-        title:"elevate longline sports bra " ,
-        color:"willow green ",
-        price:"44$"
+        title:"sport seamless tshirt " ,
+        color:"pastel green/willow green ",
+        price:"38$"
        },   
+]
+
+const womanTrending=[
     {
-        id:"4",
-        title:"elevate longline sports bra " ,
-        color:"willow green ",
-        price:"44$"
-       },   
+        id:1,
+        title:"new relasess"
+    },
     {
-        id:"4",
-        title:"elevate longline sports bra " ,
-        color:"willow green ",
-        price:"44$"
-       },   
+        id:2, 
+        title:"matching sets"
+    },
+    {
+        id:3,
+        title:"best sellers"
+    },
+    {
+        id:4,
+        title:"black leggings"
+    },
+    {
+        id:5,
+        title:"slides"
+    },
+    {
+        id:6,
+        title:"evening blue "
+    },
+    {
+        id:7,
+        title:"oversized"
+    },
+    {
+        id:8,
+        title:"summer essentials"
+    },
+    {
+        id:9,
+        title:"e-gift card"
+    },
+]
+
+const womenscollection = [
+    {
+        id:1,
+        title:"vital"
+    },
+    {
+        id:2,
+        title:"adapt collection"
+    },
+    {
+        id:3,
+        title:"sweat"
+    },
+    {
+        id:4,
+        title:"limitless"
+    },
+    {
+        id:5,
+        title:"essentials"
+    },
+    {
+        id:6,
+        title:"elivate"
+    },
+    {
+        id:7,
+        title:"legacy"
+    },
+    {
+        id:8,
+        title:"gs power"
+    },
+    {
+        id:9,
+        title:"key fits "
+    },
+   
+]
+
+const mensTrending=[
+    {
+        id:'1',
+         title:"new release"
+    },
+    {
+        id:'2',
+         title:"best sellers "
+    },
+    {
+        id:'3',
+         title:"slides"
+    },
+    {
+        id:'4',
+         title:"summer essentials"
+    },
+    {
+        id:'5',
+         title:"oversized "
+    },
+    {
+        id:'6',
+         title:"pump cover "
+    },
+    {
+        id:'7',
+         title:"running"
+    },
+    {
+        id:'8',
+         title:"e-gift card"
+    },
+]
+
+
+const mensCollection=[
+    {
+        id:'1',
+         title:"power"
+    },
+    {
+        id:'2',
+         title:"crest"
+    },
+    {
+        id:'3',
+         title:"apex"
+    },
+    {
+        id:'4',
+         title:"legacy"
+    },
+    {
+        id:'5',
+         title:"sport"
+    },
+    {
+        id:'6',
+         title:"essentials"
+    },
+    {
+        id:'7',
+         title:"react"
+    },
+    {
+        id:'8',
+         title:"arrival"
+    },
+    {
+        id:'9',
+         title:"graphic"
+    },
+    {
+        id:'10',
+         title:"315 collection"
+    },
 ]
