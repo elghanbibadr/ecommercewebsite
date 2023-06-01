@@ -1,17 +1,27 @@
 import React from 'react'
 import menuHamburger from "../assets/bars-solid.svg"
 import searchIcon from "../assets/searchIcon.svg"
+import heartIcon from "../assets/heart.svg"
+import logo from "../assets/logo.svg"
+import bagShopping from "../assets/bag-shopping.svg";
+
 
 const Navbar = () => {
+
   return (
     <header className='p-4'>
-        <nav className='flex justify-between'>
-            <div className='flex h-6 w-6 items-center'>
-                <img className='h-6 mx-2 w-6' src={menuHamburger} alt="menu hamburger icon" />
-                 <img src={searchIcon} alt="search icon" />
+        <nav className='flex justify-between items-center'>
+            <div className='flex items-center'>
+                <img className='h-5 mx-3 w-6' src={menuHamburger} alt="menu hamburger icon" />
+                 <img className='h-4' src={searchIcon} alt="search icon" />
             </div>
-        <img src="https://cdn.gymshark.com/images/branding/gs-icon-black.svg" alt="store logo" /> 
+        <img src={logo} alt="store logo" /> 
+         <div className='flex  items-center'>
+         <img className=' h-4 w-4' src={heartIcon} alt="heart icon" />
+         <img className='ml-2 px-4'  src={bagShopping} alt="bag shopping icon" />
+         </div>
         </nav>
+
     </header>
   )
 }
