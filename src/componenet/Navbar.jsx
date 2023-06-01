@@ -2,7 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <header className='p-4'>
+        <nav>
+        <img src="https://cdn.gymshark.com/images/branding/gs-icon-black.svg" alt="store logo" /> 
+        </nav>
+    </header>
   )
 }
 
