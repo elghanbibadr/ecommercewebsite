@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Navbar from './componenet/Navbar'
 const App = () => {
   return (
-    <div>hello world</div>
+   <Navbar/>
   )
 }
 
