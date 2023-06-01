@@ -9,8 +9,8 @@ import bagShopping from "../assets/bag-shopping.svg";
 const Navbar = () => {
 
   return (
-    <header className='p-4'>
-        <nav className='flex justify-between items-center'>
+    <header className='p-4 border-b-[#ccc] pb-4 border-b-[1px]'>
+        <nav className='flex  justify-between items-center'>
             <div className='flex items-center'>
                 <img className='h-5 mx-3 w-6' src={menuHamburger} alt="menu hamburger icon" />
                  <img className='h-4' src={searchIcon} alt="search icon" />
