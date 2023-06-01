@@ -304,4 +304,4 @@ const mensCollection=[
         id:'10',
          title:"315 collection"
     },
-]
+] 
