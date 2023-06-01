@@ -3,6 +3,7 @@ import menuHamburger from "../assets/bars-solid.svg"
 import searchIcon from "../assets/searchIcon.svg"
 import heartIcon from "../assets/heart.svg"
 import logo from "../assets/logo.svg"
+import profilIcon from "../assets/user-regular.svg"
 import bagShopping from "../assets/bag-shopping.svg";
 
 
@@ -17,8 +18,9 @@ const Navbar = () => {
             </div>
         <img src={logo} alt="store logo" />  
          <div className='flex items-center'>  
-         <img className='  w-4 h-4 lg:h-5 lg:w-5' src={heartIcon} alt="heart icon" />
          <img className=' hidden h-5 ml-2 lg:block lg:mx-5' src={searchIcon} alt="search icon" />
+         <img className='  w-4 h-4 lg:h-5 lg:w-5' src={heartIcon} alt="heart icon" />
+         <img className='hidden lg:h-5 lg:w-5 lg:block lg:mx-3' src={profilIcon} alt="profil icon" />
          <img className='ml-2 h-5 lg:h-6'  src={bagShopping} alt="bag shopping icon" />
          </div>
         </nav>
