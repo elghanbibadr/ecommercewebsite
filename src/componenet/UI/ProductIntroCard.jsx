@@ -1,21 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import womenImg from "../../assets/product.webp"
 import heartIcon from "../../assets/heart.svg";
 import addtobasket from "../../assets/addToBasket.svg"
 
 const ProductIntroCard = () => {
+    const [productHovered ,setProductHovered]=useState(false)
+     
     const availableSizes=["xs","s","md","l","xl","xxl"];
 
-    
+
     const handleProuctGotHovered=()=>{
         //show the available sizes for this  product
     }
   return (
     <>
     <div>
-
+    {availableSizes.map((size,index) => {
+        return <div className='bg-white hover:bg-black' key={index} >
+         <p className='text-[#6e6e6e]'>{size}</p> 
+        </div>
+    })}  
     </div>
-    <div onMouseOver={productGotHovered} className='relative w-[400px] m-4'>
+    <div onMouseOver ={handleProuctGotHovered} className='relative w-[400px] m-4'>
       <div className='bg-white p-2 rounded-full absolute left-[90%] top-3 '>
         <img className='w-4 h-4 lg:h-4 lg:w-4' src={heartIcon} alt="heart icon" />
         </div>  
