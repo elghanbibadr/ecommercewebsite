@@ -1,4 +1,4 @@
-const newRealase=[
+ export  const newRealase=[
   {
     id:'1',
     isNew: true,
@@ -36,8 +36,8 @@ const newRealase=[
   },
 ]    
 
-// product of the newrealsePage
-const newReleasePageProduct=[
+// product of the newrealsePage 
+export const newReleasePageProduct=[
     {
         id:'1',
         isNew: true,
@@ -415,7 +415,7 @@ const newReleasePageProduct=[
 
 
 
-const lifting=[
+export const lifting=[
     {
         id:"1",
         title:"legacy Washed Crop Top" ,
@@ -443,7 +443,7 @@ const lifting=[
 
 ]
 
- const RestDay=[
+export const RestDay=[
     {
         id:"1",
         title:"minmal sports bra " ,
@@ -470,7 +470,7 @@ const lifting=[
        },    
  ]
 
- const  womansBras=[
+ export const  womansBras=[
     {
         id:"1",
         title:"longline sports bra " ,
@@ -499,7 +499,7 @@ const lifting=[
 
 
 
-const functionalFitness=[
+ export const functionalFitness=[
     {
         id:"1",
         title:"arrival tshirt " ,
@@ -526,7 +526,7 @@ const functionalFitness=[
        },   
 ]
 
-const womanTrending=[
+export const womanTrending=[
     {
         id:"1",
         title:"new relasess"
@@ -565,7 +565,7 @@ const womanTrending=[
     },
 ]
 
-const womenscollection = [
+export const womenscollection = [
     {
         id:"1",
         title:"vital"
@@ -605,7 +605,7 @@ const womenscollection = [
    
 ]
 
-const mensTrending=[
+export const mensTrending=[
     {
         id:'1',
          title:"new release"
@@ -641,7 +641,7 @@ const mensTrending=[
 ]
 
 
-const mensCollection=[
+export const mensCollection=[
     {
         id:'1',
          title:"power"
@@ -684,7 +684,7 @@ const mensCollection=[
     },
 ] 
 
-const help=[
+export const help=[
     {
         id:'1',
          title:"faq"
@@ -711,7 +711,7 @@ const help=[
     },
 ]
 
-const myaccount=[
+export const myaccount=[
     {
         id:'1',
          title:"login"
@@ -722,7 +722,7 @@ const myaccount=[
     },
 ]
 
-const pages=[
+export const pages=[
     {
         id:'1',
          title:"gymshark central"
