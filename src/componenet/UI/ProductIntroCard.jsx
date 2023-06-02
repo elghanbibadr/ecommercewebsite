@@ -20,7 +20,7 @@ const ProductIntroCard = ({isNew,title,price,colors}) => {
     return (
         
         <> 
-            <div className='relative'>
+            {/* <div className='relative'>
                 {/* render the sizes conditionality   */}   
 {/*                     
                 <div className='grid grid-cols-3'> 
@@ -30,15 +30,15 @@ const ProductIntroCard = ({isNew,title,price,colors}) => {
                         </div>
                     })}
                 </div> */}
-            </div>     
-            <div onMouseOver={handleProuctGotHovered} onMouseLeave={handleProductNotHovered} className='relative w-[400px] m-4'>
-                <div className='bg-white p-2 rounded-full absolute left-[90%] top-3 '>
+            {/* </div>      */}
+            <div onMouseOver={handleProuctGotHovered} onMouseLeave={handleProductNotHovered} className='relative mt-10 m-4'>
+                <div className='bg-white p-2 rounded-full absolute left-[80%] top-3 '>
                     <img className='w-4 h-4 lg:h-4 lg:w-4' src={heartIcon} alt="heart icon" />
                 </div>
                 <div className='bg-white p-2 rounded-full absolute left-[5%] top-3 '>
                      <img className='w-4 h-4 lg:h-3 lg:w-3' src={addtobasket} alt="add to basket icon" />
                 </div>
-                <div className='bg-white rounded-sm p-1 absolute left-2 top-[78%]'>
+                <div className='bg-white rounded-sm p-1 absolute left-2 top-[72%]'>
                   {isNew && <p className='font-semibold text-xs'>NEW</p> }  
                 </div>
                 <img className='' src={womenImg} alt="a guy modeling the product" />
