@@ -3,6 +3,8 @@
  import newreleaseimg3 from "../src/assets/newrelease/newrelase4.webp"
  import newreleaseimg4 from "../src/assets/newrelease/newrelase5.webp"
  
+
+ 
  export  const newRealase=[
   {
     id:'1',
