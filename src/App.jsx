@@ -5,17 +5,18 @@ import { NewRelease } from './componenet/NewRelease'
 import PurcePerformanceIntro from './componenet/PurcePerformanceIntro'
 import RestDayIntro from './componenet/RestDayIntro'
 import Lifting from './componenet/Lifting'
-const App = () => {
-  return (
 
+
+const App = () => {       
+  return (
     <div>
-    <Navbar/>
-     <Hero />
-     <NewRelease />     
-     <PurcePerformanceIntro/>
-     <Lifting />
-     <RestDayIntro />
-    </div>                      
+      <Navbar />
+      <Hero />
+      <NewRelease />
+      <PurcePerformanceIntro />
+      <Lifting />
+      <RestDayIntro />
+    </div>
   )
 }
 
