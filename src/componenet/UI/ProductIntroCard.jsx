@@ -3,7 +3,7 @@ import womenImg from "../../assets/product.webp"
 import heartIcon from "../../assets/heart.svg";
 import addtobasket from "../../assets/addToBasket.svg"
 
-const ProductIntroCard = ({isNew,title,price,colors}) => {
+const ProductIntroCard = ({isNew,title,price,colors,productImg}) => {
     const [productHovered, setProductHovered] = useState(false)
 
     const availableSizes = ["xs", "s", "md", "l", "xl", "xxl"];
@@ -41,7 +41,7 @@ const ProductIntroCard = ({isNew,title,price,colors}) => {
                 <div className='bg-white rounded-sm p-1 absolute left-2 top-[72%]'>
                   {isNew && <p className='font-semibold text-xs'>NEW</p> }  
                 </div>
-                <img className='' src={womenImg} alt="a guy modeling the product" />
+                <img className='' src={productImg} alt="a guy modeling the product" />
                 <h4 className='mt-3 text-md '>{title}</h4>
                 <span className='text-[#6e6e6e] my-1 inline-block '> {colors}</span>
                 <h6 className='font-bold'> {price}</h6>

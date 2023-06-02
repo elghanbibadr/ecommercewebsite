@@ -1,7 +1,13 @@
+ import newreleaseimg1 from "../src/assets/newrelease/newrelease2.webp"
+ import newreleaseimg2 from "../src/assets/newrelease/newrelase3.webp"
+ import newreleaseimg3 from "../src/assets/newrelease/newrelase4.webp"
+ import newreleaseimg4 from "../src/assets/newrelease/newrelase5.webp"
+ 
  export  const newRealase=[
   {
     id:'1',
     isNew: true,
+    productImg:newreleaseimg1,
     title:'Elevate Spray Dye Leggings',
     colors :"White/Misty Pink/Scandi Pink",
     price:"$68"
@@ -10,6 +16,7 @@
 
     id:'2', 
     isNew: true,
+    productImg:newreleaseimg2,
     title:'Elevate Spray Dye Longline Sports Bra',
     colors :"White/Misty Pink/Scandi Pink", 
     price:"$46"
@@ -18,6 +25,7 @@
 
     id:'3',
     isNew: true,      
+    productImg:newreleaseimg3,
     title:'limitless Shorts',
     colors :"Black/light grey",
     price:"$48"
@@ -25,6 +33,7 @@
   {
     id:'4',
     isNew: true,
+    productImg:newreleaseimg4,
     title:'limitless Sport Bra',
     colors :"Black",
     price:"$58"
@@ -750,4 +759,4 @@ export const pages=[
         id:'6',
          title:"submit a fake"
     },  
-]
+] 
