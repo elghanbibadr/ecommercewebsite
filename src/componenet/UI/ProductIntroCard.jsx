@@ -38,7 +38,7 @@ const ProductIntroCard = ({isNew,title,price,colors,productImg}) => {
                 <div className='bg-white p-2 rounded-full absolute left-[5%] top-3 '>
                      <img className='w-4 h-4 lg:h-3 lg:w-3' src={addtobasket} alt="add to basket icon" />
                 </div>
-                <div className='bg-white rounded-sm p-1 absolute left-2 top-[72%]'>
+                <div className='bg-white rounded-sm p-1 absolute left-2 top-[68%]'>
                   {isNew && <p className='font-semibold text-xs'>NEW</p> }  
                 </div>
                 <img className='' src={productImg} alt="a guy modeling the product" />
