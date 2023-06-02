@@ -4,10 +4,10 @@ import Hero from './componenet/Hero'
 import { NewRelease } from './componenet/NewRelease'
 import PurcePerformanceIntro from './componenet/PurcePerformanceIntro'
 import RestDayIntro from './componenet/RestDayIntro'
-import Lifting from './componenet/Lifting'
+import Lifting from './componenet/Lifting'     
+import RestDay from './componenet/RestDay'
 
-
-const App = () => {       
+const App = () => {          
   return (
     <div>
       <Navbar />
@@ -16,7 +16,8 @@ const App = () => {
       <PurcePerformanceIntro />
       <Lifting />
       <RestDayIntro />
-    </div>
+      <RestDay  />
+    </div>  
   )
 }
 

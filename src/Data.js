@@ -460,7 +460,7 @@ export const lifting = [
 
 ]
 
-export const RestDay = [
+export const restDay = [
   {
     id: "1",
     title: "minmal sports bra ",
