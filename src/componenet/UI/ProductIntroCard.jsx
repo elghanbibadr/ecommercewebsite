@@ -32,7 +32,7 @@ const ProductIntroCard = ({isNew,title,price,colors,productImg}) => {
                 </div> */}
             {/* </div>      */}
             <div onMouseOver={handleProuctGotHovered} onMouseLeave={handleProductNotHovered} className='relative mt-10 m-4'>
-                <div className='bg-white p-2 rounded-full absolute left-[80%] top-3 '>
+                <div className='bg-white p-2 rounded-full absolute left-[85%] top-3 '>
                     <img className='w-4 h-4 lg:h-4 lg:w-4' src={heartIcon} alt="heart icon" />
                 </div>
                 <div className='bg-white p-2 rounded-full absolute left-[5%] top-3 '>
@@ -42,12 +42,12 @@ const ProductIntroCard = ({isNew,title,price,colors,productImg}) => {
                   {isNew && <p className='font-semibold text-xs'>NEW</p> }  
                 </div>
                 <img className='' src={productImg} alt="a guy modeling the product" />
-                <h4 className='mt-3 text-md '>{title}</h4>
-                <span className='text-[#6e6e6e] my-1 inline-block '> {colors}</span>
+                <h4 className='mt-3 text-md capitalize '>{title}</h4>
+                <span className='text-[#6e6e6e] my-1 inline-block capitalize '> {colors}</span>
                 <h6 className='font-bold'> {price}</h6>
             </div>
 
-        </>
+        </>  
     )
 }
 

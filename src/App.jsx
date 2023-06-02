@@ -4,6 +4,7 @@ import Hero from './componenet/Hero'
 import { NewRelease } from './componenet/NewRelease'
 import PurcePerformanceIntro from './componenet/PurcePerformanceIntro'
 import ProductIntroCard from './componenet/UI/ProductIntroCard'
+import RestDayIntro from './componenet/RestDayIntro'
 import Lifting from './componenet/Lifting'
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
      <NewRelease />     
      <PurcePerformanceIntro/>
      <Lifting />
-    </div>
+     <RestDayIntro />
+    </div>                      
   )
 }
 

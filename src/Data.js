@@ -429,6 +429,7 @@ export const lifting = [
     id: "1",
     title: "legacy Washed Crop Top",
     productImg: liftingimg1,
+    isNew:true,
     color: "black",
     price: "30$"
   },
@@ -436,6 +437,7 @@ export const lifting = [
     id: "2",
     title: "react tank",
     productImg: liftingimg2,
+    isNew:true,
     color: "black",
     price: "24$"
   },
@@ -443,6 +445,7 @@ export const lifting = [
     id: "3",
     title: "legacy ruched tight shorts",
     productImg: liftingimg3,
+    isNew:true,
     color: "mist green",
     price: "40$"
   },
@@ -450,6 +453,7 @@ export const lifting = [
     id: "4",
     title: "power washed 5 shorts",
     productImg: liftingimg4,
+    isNew:true,
     color: "ecru brown",
     price: "42$"
   },
