@@ -31,7 +31,7 @@ const ProductIntroCard = ({isNew,title,price,colors,productImg}) => {
                     })}
                 </div> */}
             {/* </div>      */}
-            <div onMouseOver={handleProuctGotHovered} onMouseLeave={handleProductNotHovered} className='relative mt-10 m-4'>
+            <div onMouseOver={handleProuctGotHovered} onMouseLeave={handleProductNotHovered} className='relative mt-2 m-4'>
                 <div className='bg-white p-2 rounded-full absolute left-[85%] top-3 '>
                     <img className='w-4 h-4 lg:h-4 lg:w-4' src={heartIcon} alt="heart icon" />
                 </div>

@@ -6,6 +6,10 @@ import liftingimg1 from "../src/assets/lifting/lifting1.webp"
 import liftingimg2 from "../src/assets/lifting/lifting2.webp"
 import liftingimg3 from "../src/assets/lifting/lifting3.webp"
 import liftingimg4 from "../src/assets/lifting/lifting4.webp"
+import restDayImg1 from "../src/assets/restday/restDay1.webp"
+import restDayImg2 from "../src/assets/restday/restDay2.webp"
+import restDayImg3 from "../src/assets/restday/restDay3.webp"
+import restDayImg4 from "../src/assets/restday/restDay4.webp"
 
 
 export const newRealase = [
@@ -464,24 +468,28 @@ export const restDay = [
   {
     id: "1",
     title: "minmal sports bra ",
+    productImg:restDayImg1,
     color: "aegener blue ",
     price: "30$"
   },
   {
     id: "2",
     title: "rest day sweats shorts",
+    productImg:restDayImg2,
     color: "light grey core marl ",
     price: "46$"
   },
   {
     id: "3",
     title: "essential oversized tshirt",
+    productImg:restDayImg3,
     color: "white ",
     price: "26$"
   },
   {
     id: "4",
     title: "apex7 hybrid shorts ",
+    productImg:restDayImg4,
     color: "solstice orange",
     price: "46$"
   },
